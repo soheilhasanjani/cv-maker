@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { geistMono, geistSans } from "@/fonts";
+import { IRANYekanX } from "@/fonts";
 import "@/styles/globals.css";
 
 export const metadata: Metadata = {
@@ -13,10 +13,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+    <html lang="fa" dir="rtl">
+      <body className={`${IRANYekanX.variable} font-iran-yekan-x`}>
         {children}
       </body>
     </html>

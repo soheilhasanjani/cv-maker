@@ -2,3 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-inline-start: 1.5rem;
+}
+
+li {
+  padding-bottom: 0.5rem;
+  padding-inline-start: 0.25rem;
+  line-height: 120%;
+}

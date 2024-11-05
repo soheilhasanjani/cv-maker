@@ -13,8 +13,7 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
       fontFamily: {
-        "geist-sans": ["var(--font-geist-sans)"],
-        "geist-mono": ["var(--font-geist-mono)"],
+        "iran-yekan-x": ["var(--font-iran-yekan-x)"],
       },
     },
   },
